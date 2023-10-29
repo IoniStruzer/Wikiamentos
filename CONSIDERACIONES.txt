@@ -1,0 +1,19 @@
+Medicamentos:
+	Paracetamol
+	Amoxicilina
+	Clonazepam
+
+Diseño y estructura:
+	Formulario de informacion personal de usuario para recibir novedades de productos, precios y detalles de medicamentos de interes
+	Busqueda dentro del sitio de medicamento deseado
+	Uso de tarjetas para mostrar distintas marcas con el medicamento solicitado
+	Opcion de abrir en ventana nueva para cada medicacion a investigar
+	Imagenes del producto
+	Index principal: Como hacer para llamar la atencion del usuario y sentirse como y entender el formato de pagina?
+	Menu expandible para funciones del sitio
+	Uso de secciones para separar informacion sobre los medicamentos: Principio activo, contraindicaciones, posologia, precios promedios.
+
+https://web.zurich.cl/comparador/cotizadorv2.aspx
+https://buscamed.com/buscar/cuVIwbB-amoxil-500mg%2F5ml-75-ml-1-frasco-con-polvo
+https://cima.aemps.es/cima/publico/lista.html
+https://bancos.salud.gob.ar/sites/default/files/2020-06/guia-de-medicamentos-esenciales-para-el-pna-antimicrobianos-2017.pdf

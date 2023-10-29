@@ -1,0 +1,42 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(88, 255, 88);
+    background-color: rgb(90, 124, 236);
+    padding: 30px;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    list-style-type: none;
+    color: rgb(6, 31, 112);
+}
+
+ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+li{
+    padding: 15px;
+}
+
+img{
+    width: 50%;
+    animation-name: movement;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes movement {
+    0%   {left:0px; top:0px;}
+    50%  {left: 600px; top:0px;}
+    100% {left:0px; top:0px;}
+  }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikiamentos</title>
+    <link rel="shortcut icon" href="26422.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul id="Navegacion">
+            <li><a href="#inicio" class="navigation">Inicio</a></li>
+            <li><a href="#somos" class="navigation">Quienes Somos</a></li>
+            <li><a href="#medicaciones" class="navigation">Medicaciones</a></li>
+            <li><a href="#consultas" class="navigation">Consultas</a></li>
+            <li><a href="#contacto" class="navigation">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <Section>
+            <h1 id="inicio">Inicio</h1>
+            <p>Bienvenidos a Wikiamentos!<br>La enciclopedia de todos los fármacos de uso cotidiano y especiales para tu salud y bienestar.</p>
+        </Section>
+        <Section>
+            <h1 id="somos">Quienes Somos</h1>
+            <p>Somos un sitio web donde brindamos información y comparaciones de medicamentos </p>
+            <p><i>Todas las características de interés de un medicamento, se encuentran recopilados en el detalle del mismo. Estas se presentan junto con el prospecto, ficha técnica y demás información necesaria en un medicamento.</i></p>
+        </Section>
+        <Section>
+            <h1 id="medicaciones">Medicaciones</h1>
+            <p id="medic">Encuentra la mejor opción para tu medicamento en nuestra lista enciclopédica de fármacos.</p>
+            <!-- <select>
+                <option><a href="Clonazepam.html" target="_blank">Clonazepam</a> </option>
+                <option>Amoxicilina</option>
+                <option>Paracetamol</option>
+            </select><br> -->
+            <a href="medicaciones.html" target="_self" class="opmedic">Encontra tu medicación</a>
+        </Section>
+        <section>
+            <h1 id="consultas">Consultas</h1>
+            <p>Para consultas de fármacos u otra particularidad de medicina que no encuentres, o cualquier información que consideres relevante marcar o preguntar, por favor completar el forumlario y dejarnos tu mensaje y nos pondremos en contracto contigo a la brevedad.</p>
+            <form name="formulario" id="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input id="apellido" type="text" name="apellido">
+                <br>
+                <label for="email">Email:</label>
+                <input id="email" type="text" name="email">
+                <br>
+                <br>
+                <label for="mensaje">Mensaje</label>
+                <br>
+            </form>
+            <textarea name="comment" form="formulario" placeholder="Enter text here..." rows="4" cols="50" id="mensaje"></textarea>
+            <br>
+            <br>
+            <input type="button" id="enviar" value="Enviar" onclick="validarEnviar()">
+            <script src="INDEX.js"></script>
+        </section>
+        <Section>
+            <h1 id="contacto">Contacto</h1>
+            <p>Para consulta directa con nuestra atención al usuario le dejamos los siguientes medios de contacto</p>
+        </Section>
+        <section>
+            <a href="Investigadores.html" target="_blank"><h1>Nuestras Investigaciones</h1></a>
+            <p>En <b>Wikiamentos</b> hemos obtenido datos de los ejores profesionales de la medicina de todo el mundo para completar nuestra base de datos. Haciendo click en el link de <i>Nuestras Investigaciones</i> podrá ver algunos de los nombres al azar que hemos acudido que nos han ilustrado sobre la información para los fármacos que ustedes consultan</p>
+        </section>
+    </main>
+</body>
+</html>

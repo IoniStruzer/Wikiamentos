@@ -1,0 +1,91 @@
+body{
+  margin-top: 100px;
+}
+
+ul{
+  list-style-type: none;
+  position: fixed;
+  background-color: rgb(87, 136, 226);
+  padding: 5px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+}
+
+li{
+  display: inline;
+  margin: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  flex: 1;
+}
+
+.navigation:link{
+  color: rgb(129, 250, 93);
+}
+
+.navigation:visited{
+  color: rgb(129, 250, 93);
+}
+
+.navigation:hover{
+  color: red;
+}
+
+.Argentia {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+
+.Argentia:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container1 {
+    padding: 2px 16px;
+  }
+
+img{
+    width: 50%;
+  }
+
+.Septilisin {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+
+.Septilisin:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.container2 {
+    padding: 2px 16px;
+  }
+
+img{
+    width: 50%;
+  }
+
+.Keforal {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+  }
+
+.Keforal:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.container3 {
+    padding: 2px 16px;
+  }
+
+img{
+    width: 50%;
+  }
